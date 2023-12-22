@@ -23,13 +23,10 @@ require_once('./constants.php');
             <li><a href= <?php echo "./table.php?table=". ETAPE_TABLE_NAME?> >Étapes</a></li>
             <li><a href= <?php echo "./table.php?table=". DOCUMENT_TABLE_NAME?> >Documents</a></li>
             <li><a href= <?php echo "./table.php?table=". INTERVENTION_TABLE_NAME?> >Interventions</a></li>
-<<<<<<< HEAD
             <li><a href= <?php echo "./table.php?table=". CONTRAT_TABLE_NAME?> >Contrats</a></li>
             <li><a href= <?php echo "./table.php?table=". CONTACT_TABLE_NAME?> >Contacts</a></li>
             <li><a href= <?php echo "./table.php?table=". FONCTION_TABLE_NAME?> >Fonctions</a></li>
 
-=======
->>>>>>> edeb6c8b3444167c66bf1e0b5fa174667a471db3
         </ul>
     </body>
 </html>
