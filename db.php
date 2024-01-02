@@ -4,6 +4,11 @@ require_once('./constants.php');
  *  get DB, returns a PDO object
  */
 
+/**
+ * getDb
+ *
+ * @return void
+ */
 function getDb(){
     try{
         $db = new PDO(
